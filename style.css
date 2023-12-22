@@ -1,0 +1,37 @@
+td{ 
+    border: 1px solid black; 
+    text-align: center; 
+    padding: 10px 17px; 
+} 
+table{ 
+    width: 90%; 
+    height: 90%; 
+    border-collapse: collapse; 
+} 
+div{ 
+    height: 700px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+td:first-child{ 
+    background-color: rgb(67, 189, 67);  
+} 
+.tr1 .td2{ 
+    background-color: yellow; 
+} 
+.td2{ 
+    background-color: yellow; 
+} 
+td:last-child{ 
+    background-color: rgb(186, 121, 0); 
+} 
+.tr1:first-child{ 
+    background-color: rgb(186, 121, 0); 
+} 
+tr .td8{ 
+    background-color: rgb(185, 159, 159); 
+} 
+tr:last-child{ 
+    background-color: rgb(67, 189, 67); 
+}
